@@ -1,10 +1,22 @@
 *{
-    background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 body{
+    display: flex;
+    flex-direction: column;
     margin: 0%;
+    background-color: rgb(53, 53, 53);
+}
+
+p{
+    font-size: 80%;
+    margin: 0%
+}
+
+h6{
+    margin: 0%;
+    font-size: 73%;
 }
 
 .flexRow{
@@ -12,43 +24,67 @@ body{
     flex-direction: row;
 }
 
-.flexColumn{
+.flexCol{
     display: flex;
     flex-direction: column;
 }
 
-.txtTopMenu{
-    padding-left: 20%;
-    font-size: 120%;
-}
-
-#menu{
+.justifySpaceBetween{
     justify-content: space-between;
-
-
-    padding-top: 1%;
-    padding-left: 1%;
-    padding-right: 3%;
-    background-color: black;
-}
-#menu *{
-    background-color: black;
 }
 
-#homeSearchLibrary{
-    justify-content: space-between;
-    padding-top: 20%;
-}
-
-#library{
-    padding-left: 2%;
-}
-
-#focusTxt{
+.alignCenter{
     align-items: center;
-    justify-content: space-between;
-    padding-right: 2%;
 }
 
+.TxtNavLeft{
+    margin: 0% 10%;
+}
 
+.marginPartTopLeft{
+    margin: 20% 0%;
+}
 
+.marginHomeSearchLibrary{
+    margin: 10% 0%;
+}
+
+.GlobalLibrary{
+    padding: 4% 2%;
+}
+
+.rightNav{
+    padding: 2%;
+}
+
+.marginRightNav{
+    padding: 0% 7%;
+}
+
+#Menu *{
+    background-color: black;
+}
+#Menu{
+    background-color: black;
+    padding: 2% 7% 2% 2%;
+}
+
+#navBot{
+    background-color: rgb(26, 26, 26);
+}
+
+#navBot *{
+    background-color: rgb(26, 26, 26);
+}
+
+.degradax{
+    background-color: black;
+    height: 15%;
+}
+
+.titreGen{
+    background-color: #1A1A1A;
+    padding: 1%;
+    border-radius: 5%;
+    margin: 0% 1%;
+}

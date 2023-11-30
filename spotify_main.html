@@ -7,82 +7,79 @@
     <link rel="stylesheet" href="spotify_style.css">
 </head>
 <body>
+    
+    <!-- Global -->
 
-    <div id="global" class="flexRow">
-        <div id="menu" class="flexColumn">
+    <div class="flexRow">
+        <div class="flexCol justifySpaceBetween" id="Menu">
 
             <!-- Menu du haut -->
 
-            <div id="menuHaut">
-
-                <div id="logo">
+            <div class="flexCol justifySpaceBetween">
+                <div>
                     <img src="data\nav\SpotifyLogo.png" alt="spotifyLogo">
                 </div>
-
-                <div id="homeSearchLibrary" class="flexColumn">
-
-                    <div id="home">
-
-                        <div id="homeImage">
+                <div class="flexCol justifySpaceBetween marginPartTopLeft">
+                    <div class="flexRow alignCenter">
+                        <div>
                             <img src="data\nav\homeLogo.png" alt="homeLogo">
                         </div>
 
-                        <div id="homeTxt" class="txtTopMenu">
-                            <h6>home</h6>
+                        <div class="TxtNavLeft">
+                            <h6>Home</h6>
                         </div>
                         
                     </div>
 
-                    <div id="search" class="flexRow">
+                    <div class="flexRow alignCenter marginHomeSearchLibrary">
 
-                        <div id="searchImage">
+                        <div>
                             <img src="data\nav\SearchLogo.png" alt="searchLogo">
                         </div>
 
-                        <div id="searchTxt" class="txtTopMenu">
+                        <div class="TxtNavLeft">
                             <h6>Search</h6>
                         </div>
                         
                     </div>
 
-                    <div id="yourLibrary" class="flexRow">
+                    <div class="flexRow alignCenter">
                         
-                        <div id="yourLibraryImage">
+                        <div>
                             <img src="data\nav\YourlibraryLogo.png" alt="libraryLogo">
                         </div>
 
-                        <div id="yourLibraryTxt" class="txtTopMenu">
+                        <div class="TxtNavLeft">
                             <h6>Your Library</h6>
                         </div>
-                        
+
                     </div>
 
                 </div>
 
-                <div id="createPlaylist/like">
-
-                    <div id="createPlaylist">
+                <div>
+                    <div class="flexRow alignCenter">
                         <img src="data\nav\ceatePlaylistLogo.png" alt="playlistLogo">
+                        <h6 class="TxtNavLeft">Create Playlist</h6>
                     </div>
 
-                    <div id="like">
+                    <div class="flexRow alignCenter">
                         <img src="data\nav\likeLogo.png" alt="likeLogo">
+                        <h6 class="TxtNavLeft">Liked Songs</h6>
                     </div>
-
                 </div>
-
             </div>
 
             <!-- Menu du bas -->
 
-            <div id="menuBas">
-                <div id="legals">
+            <div>
+                <div>
                     <h6>Legal</h6> <h6>Privacy Center</h6>
                     <h6>Privacy Policy</h6><h6>Cookies</h6>
                     <h6>About adds</h6>
                     <h6>Cookies</h6>
                 </div>
-                <div id="lang">
+                <div>
                     <img src="data\nav\buttonLang.png" alt="buttonLang">
                 </div>
             </div>
@@ -91,23 +88,24 @@
 
 
 
-        <div id="library" class="flexColumn">
-            <div id="music">
+        <div id="openLibrary dégradax">
+            <div class="GlobalLibrary">
 
                 <!-- Musique de Focus -->
-                <div id="focus">
-                    <div id="focusTxt" class="flexRow">
+                <div id="openLibrary">
+                    <div class="flexRow justifySpaceBetween">
                         <h2>Focus</h2><p>Show all</p>
                     </div>
-                    <div id="focusTitre" class="flexRow">
+
+                    <div class="flexRow">
 
                         <!-- Peaceful Piano -->
 
-                        <div id="PeacfulPiano">
-                            <div id="PeacfulPiano/Image">
-                                <img src="data\library\focus\PeacefulPiano.png" alt="PeacefulPiano">
+                        <div class="titreGen">
+                            <div>
+                                <img src="data\library\focus\PeacefulPiano.png" alt="PeacefulPiano" class="titreImage">
                             </div>
-                            <div id="PeacefullPianoTxt">
+                            <div>
                                 <h2>Peaceful Piano</h2>
                                 <p>Relax and indulge with beautiful piano pieces</p>
                             </div>
@@ -115,11 +113,11 @@
 
                         <!-- Deep Focus -->
 
-                        <div id="DeepFocus">
-                            <div id="DeepFocus/Image">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\focus\DeepFocus.png" alt="DeepFocus">
                             </div>
-                            <div id="DeepFocus/Txt">
+                            <div>
                                 <h2>Deep Focus</h2>
                                 <p>Keep calm and focus with ambient and post-rock music.</p>
                             </div>
@@ -127,11 +125,11 @@
 
                         <!-- Instrumental Study -->
 
-                        <div id="InstrumentalStudy">
-                            <div id="Instrumental Study/Image">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\focus\InstrumentalStudy.png" alt="InstrumentalStudy">
                             </div>
-                            <div id="Instrumental Study/Txt">
+                            <div>
                                 <h2>Instrumental Study</h2>
                                 <p>Focus with soft study music in the background.</p>
                             </div>
@@ -139,11 +137,11 @@
 
                         <!-- Jazz Vibes -->
 
-                        <div id="JazzVibes">
-                            <div id="JazzVibes/Image">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\focus\JazzVibes.png" alt="JazzVibes">
                             </div>
-                            <div id="JazzVibes/Txt">
+                            <div>
                                 <h2>Jazz Vibes</h2>
                                 <p>The original chill instrumental beats playlist.</p>
                             </div>
@@ -151,11 +149,11 @@
 
                         <!-- Focus Flow -->
 
-                        <div id="FocusFlow">
-                            <div id="FocusFlow/Image">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\focus\FocusFlow.png" alt="FocusFlow">
                             </div>
-                            <div id="FocusFlow/Txt">
+                            <div>
                                 <h2>Focus Flow</h2>
                                 <p>Uptempo instrumental hip hop beats.</p>
                             </div>
@@ -163,11 +161,11 @@
 
                         <!-- Workday Lounge -->
 
-                        <div id="WorkdayLounge">
-                            <div id="WorkdayLounge/Image">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\focus\WorkdayLounge.png" alt="WorkdayLounge">
                             </div>
-                            <div id="WorkdayLounge/Txt">
+                            <div>
                                 <h2>Workday Lounge</h2>
                                 <p>Lounge and chill out music for your workday.</p>
                             </div>
@@ -175,11 +173,11 @@
 
                         <!-- Beats to think to -->
 
-                        <div id="BeatsToThinkTo">
-                            <div id="BeatsToThinkTo/Image">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\focus\BeatsToThinkTo.png" alt="BeatsToThinkTo">
                             </div>
-                            <div id="BeatsToThinkTo/Txt">
+                            <div>
                                 <h2>Beats to think to</h2>
                                 <p>Focus with deep techno and tech house.</p>
                             </div>
@@ -187,11 +185,11 @@
 
                         <!-- Reading Adventure -->
 
-                        <div id="ReadingAdventure">
-                            <div id="ReadingAdventure/Image">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\focus\ReadingAdventure.png" alt="ReadingAdventure">
                             </div>
-                            <div id="ReadingAdventure/Txt">
+                            <div>
                                 <h2>Reading Adventure</h2>
                                 <p>Scores and soundtracks for daring quests, epic journeys, and the greatest reading adventures.</p>
                             </div>
@@ -203,19 +201,19 @@
                 <!-- Musique de Spotify Playlist -->
 
 
-                <div id="spotifyPlaylist">
-                    <div id="spotifyPlaylistTxt">
+                <div>
+                    <div>
                         <h2>Spotify Playlists</h2>
                     </div>
-                    <div id="spotifyPlaylistTitre" class="flexRow">
+                    <div class="flexRow">
 
                         <!-- Today's Top Hit -->
 
-                        <div id="Today'sTopHits">
-                            <div id="Today'sTopHits/Image">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\SpotifyPlaylist\Today'sTopHits.png" alt="Today'sTopHits">
                             </div>
-                            <div id="Today'sTopHits/txt">
+                            <div>
                                 <h2>Today's Top Hits</h2>
                                 <p>KAROL G & Shakira are on top of the Hottest 50!</p>
                             </div>
@@ -223,11 +221,11 @@
 
                         <!-- RapCaviar -->
 
-                        <div id="RapCaviar">
-                            <div id="RapCaviarImage">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\SpotifyPlaylist\RapCaviar.png" alt="RapCaviar">
                             </div>
-                            <div id="RapCaviarTxt">
+                            <div>
                                 <h2>RapCaviar</h2>
                                 <p>New music from Nicki Minaj, Don Toliver and BIA.</p>
                             </div>
@@ -235,11 +233,11 @@
 
                         <!-- All Out 2010s -->
 
-                        <div id="AllOut2010s">
-                            <div id="AllOut2010sImage">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\SpotifyPlaylist\AllOut2010s.png" alt="AllOut2010s">
                             </div>
-                            <div id="AllOut2010sTxt">
+                            <div>
                                 <h2>All Out 2010s</h2>
                                 <p>The biggest songs of the 2010s.</p>
                             </div>
@@ -247,11 +245,11 @@
 
                         <!-- Rock Classics -->
 
-                        <div id="RockClassics">
-                            <div id="RockClassicsImage">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\SpotifyPlaylist\RockClassics.png" alt="RockClassics">
                             </div>
-                            <div id="RockClassicsTxt">
+                            <div>
                                 <h2>Rock Classics</h2>
                                 <p>Rock legends & epic songs that continue to inspire generations. Cover: Foo Fighters</p>
                             </div>
@@ -259,11 +257,11 @@
 
                         <!-- Chill Hits -->
 
-                        <div id="ChillHits">
-                            <div id="ChillHits/Image">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\SpotifyPlaylist\ChillHits.png" alt="ChillHits">
                             </div>
-                            <div id="ChillHits/Txt">
+                            <div>
                                 <h2>Chill Hits</h2>
                                 <p>Kick back to the best new and recent chill hits.</p>
                             </div>
@@ -271,11 +269,11 @@
 
                         <!-- Viva Latino -->
 
-                        <div id="VivaLatino">
-                            <div id="VivaLatino/Image">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\SpotifyPlaylist\VivaLatino.png" alt="VivaLatino">
                             </div>
-                            <div id="VivaLatino/Txt">
+                            <div>
                                 <h2>Viva Latino</h2>
                                 <p>Today's top Latin hits, elevando nuestra música. Cover: Manuel Turizo & Marshmello</p>
                             </div>
@@ -283,11 +281,11 @@
 
                         <!-- Mega Hit Mix -->
 
-                        <div id="MegaHitMix">
-                            <div id="MegaHitMix/Image">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\SpotifyPlaylist\MegaHitMix.png" alt="MegaHitMix">
                             </div>
-                            <div id="MegaHitMix/Txt">
+                            <div>
                                 <h2>Mega Hit Mix</h2>
                                 <p>A mega mix of 75 favorites from the last few years!</p>
                             </div>
@@ -295,11 +293,11 @@
 
                         <!-- All Out 80s -->
 
-                        <div id="AllOut80s">
-                            <div id="AllOut80s/Image">
+                        <div class="titreGen">
+                            <div>
                                 <img src="data\library\SpotifyPlaylist\AllOut80s.png" alt="AllOut80s">
                             </div>
-                            <div id="AllOut80s/Txt">
+                            <div>
                                 <h2>All Out 80s</h2>
                                 <p>The biggest songs of the 1980s.</p>
                             </div>
@@ -310,29 +308,29 @@
             </div>
 
 
-            <div id="nav" class="flexRow">
-                <div id="navLeft" class="flexRow">
-                    <div id="company">
+            <div>
+                <div class="flexRow rightNav" id="navBot">
+                    <div>
                         <h3>Company</h3>
                         <p>About <br>Jobs <br>For the Record</p>
                     </div>
-                    <div id="Communities">
+                    <div class="marginRightNav">
                         <h3>Communities</h3>
                         <p>For Artists <br>Developers <br>Advertising <br>Investors</p>
                     </div>
-                    <div id="usefullLinks">
+                    <div>
                         <h3>usefullLinks</h3>
                         <p>Support <br>Free Mobil App</p>
                     </div>
                 </div>
-                <div id="socialMedia">
-                    <div id="insta">
+                <div>
+                    <div>
 
                     </div>
-                    <div id="twitter">
+                    <div>
 
                     </div>
-                    <div id="facebook">
+                    <div>
 
                     </div>
                 </div>
