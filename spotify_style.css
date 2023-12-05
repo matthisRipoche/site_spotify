@@ -18,8 +18,13 @@ h2{
 }
 
 h6{
-    margin: 0%;
-    font-size: 73%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .flexRow{
@@ -80,6 +85,10 @@ h6{
     background-color: rgb(26, 26, 26);
 }
 
+#legalMention{
+    display: inline;
+}
+
 .degrade{
     background: linear-gradient(rgb(31, 31, 31), rgb(14, 14, 14) 30%, rgb(31, 31, 31) 0%);
 }
@@ -93,4 +102,9 @@ h6{
 
 .basisTitre{
     flex-basis: 50%;
+}
+
+.titreImage{
+    height: 8.5em;
+    width: 8.5em;
 }
